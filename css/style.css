@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 * {
   margin: 0;
@@ -9,30 +8,19 @@
 body {
     background-color: #f8f9fa;
 }
-
 .form-label.fw-bold {
     color: #343a40;
 }
-
 .table-primary .campeao-mes {
     font-weight: bold;
     color: #004085;
     background-color: #cce5ff !important;
 }
-
-.chart-wrapper {
-    width: 60%;
-    max-width: 700px;
-    margin: 20px auto;
-}
-
-
 .chart-container {
     position: relative;
     height: 0;
-    padding-top: 55%; 
+    padding-top: 55%;
 }
-
 .chart-container canvas {
     position: absolute;
     top: 0;
@@ -40,32 +28,39 @@ body {
     width: 100%;
     height: 100%;
 }
-/*Regular altura gráfico em barras */
-.chart-wrapper--bar {
+.chart-wrapper-pizza {
+    width: 60%;
+    max-width: 700px;
+    margin: 20px auto;
+}
+.chart-wrapper-bar {
     width: 95%;
-    max-width: 1200px; 
+    max-width: 1200px;
+    margin: 20px auto;
+}
+.chart-wrapper-bar .chart-container {
+    padding-top: 40%; 
+}
+.form-buttons {
+    align-self: flex-end;
+}
+.select2-container--default .select2-selection--multiple .select2-selection__choice {
+    background-color: #007bff; 
+    border-color: #0056b3;
+    color: #ffffff; 
+    padding: 5px 10px;
+    font-size: 0.9rem;
 }
 
-.chart-wrapper--bar .chart-container {
-    padding-top: 40%;
-=======
-* {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  box-sizing: border-box; 
-}
-body {
-    background-color: #f8f9fa;
+.select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
+    color: #ffffff;
+    margin-right: 5px;
 }
 
-.form-label.fw-bold {
-    color: #343a40;
+.select2-container--default .select2-selection--multiple .select2-selection__choice__remove:hover {
+    color: #e9ecef;
 }
-
-.table-primary .campeao-mes {
-    font-weight: bold;
-    color: #004085; 
-    background-color: #cce5ff !important; 
->>>>>>> d09fa6f7136548972019073a9ead160d1d81299d
+.select2-container--default .select2-results__option--selected {
+    background-color: #6e6e6e;
+    color: #000000;
 }
