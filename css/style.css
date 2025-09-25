@@ -1,0 +1,71 @@
+<<<<<<< HEAD
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box; 
+}
+body {
+    background-color: #f8f9fa;
+}
+
+.form-label.fw-bold {
+    color: #343a40;
+}
+
+.table-primary .campeao-mes {
+    font-weight: bold;
+    color: #004085;
+    background-color: #cce5ff !important;
+}
+
+.chart-wrapper {
+    width: 60%;
+    max-width: 700px;
+    margin: 20px auto;
+}
+
+
+.chart-container {
+    position: relative;
+    height: 0;
+    padding-top: 55%; 
+}
+
+.chart-container canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+/*Regular altura gráfico em barras */
+.chart-wrapper--bar {
+    width: 95%;
+    max-width: 1200px; 
+}
+
+.chart-wrapper--bar .chart-container {
+    padding-top: 40%;
+=======
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box; 
+}
+body {
+    background-color: #f8f9fa;
+}
+
+.form-label.fw-bold {
+    color: #343a40;
+}
+
+.table-primary .campeao-mes {
+    font-weight: bold;
+    color: #004085; 
+    background-color: #cce5ff !important; 
+>>>>>>> d09fa6f7136548972019073a9ead160d1d81299d
+}
